@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="newGameTool.exe" version="1.0.0.2" publicKeyToken="0698f259f1fa6f8a" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="newGameTool" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="newGameTool.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="newGameTool.exe" size="39904">
+      <assemblyIdentity name="newGameTool" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>6deJOsErnkedR2DFUiJOA3a8qR00ryWcYS0COxOrwLU=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="newGameTool.exe.config" size="188">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>VDy5/VrQni+RSOb/6uEMWMc6bGQEaa2e2UdeWG+KK1I=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=LAPTOP-QULODKQ7\mayer" issuerKeyHash="0282e0b50d38a74b21701d10087a159385ea04cd" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>3BAZfT8u31rroI9YvnMNEhczVH1K5fEj5nrXGeL00VY=</DigestValue></Reference></SignedInfo><SignatureValue>FjIpf7h4TVnaViZnS6swnDJtJ/0K7cVsbWNxJNFE2tl4ViKVeBy7CK6ZoZ+4ToTnv5QeE4QwCVCNajEAN4z1MoTwrGFy+JdxKq48F/+AtEuH8eqnYdbqgNvVPg3lY+O8uhI3GF40nVJF/oJtO4XzpRVdA8/tfJT7vFny2UIVMKA=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>00uxwC9TPPFboCmnDTb5hwbTxA9CUAzxO+CQSAoE7Le4a6GXr5jttVJFS3g4odwY3ayVdXd4eDWGSIsrXHSTFz9esSeyd2SyonQede4452iM63G30feAxUyMsbEJyH1hsqKZDrLGpIojPjjoh0jRBA4Q2jz2K5XAQHABlC8vkDU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="56d1f4e219d77ae623f1e54a7d543317120d73be588fa0eb5adf2e3f7d1910dc" Description="" Url=""><as:assemblyIdentity name="newGameTool.exe" version="1.0.0.2" publicKeyToken="0698f259f1fa6f8a" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=LAPTOP-QULODKQ7\mayer</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>jSVBpw6E1oTOtnRvBJmELBCNFcwz+plUaLA9tgDTRgk=</DigestValue></Reference></SignedInfo><SignatureValue>MNiWLmKF3n2xznx2ZjJ4+nXk80c6azHJv2rH+jsG+b7eUVhqyveB5NwPt5QHIUbBGPwhMbJ7bZpfrO/ZLomw3f0CW8l8bemEMBBItCOVvPExh7SySRsDcauzctVWvEBku9oafI7EeboNAv7qye+zhzkxjoB99TbTioDS3JbuVlo=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>00uxwC9TPPFboCmnDTb5hwbTxA9CUAzxO+CQSAoE7Le4a6GXr5jttVJFS3g4odwY3ayVdXd4eDWGSIsrXHSTFz9esSeyd2SyonQede4452iM63G30feAxUyMsbEJyH1hsqKZDrLGpIojPjjoh0jRBA4Q2jz2K5XAQHABlC8vkDU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB7TCCAVagAwIBAgIQUwKoj1kmNI5LgxjhJSXFBzANBgkqhkiG9w0BAQsFADA1MTMwMQYDVQQDHioATABBAFAAVABPAFAALQBRAFUATABPAEQASwBRADcAXABtAGEAeQBlAHIwHhcNMjAxMTE4MTY0ODA3WhcNMjExMTE4MjI0ODA3WjA1MTMwMQYDVQQDHioATABBAFAAVABPAFAALQBRAFUATABPAEQASwBRADcAXABtAGEAeQBlAHIwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBANNLscAvUzzxW6Appw02+YcG08QPQlAM8TvgkEgKBOy3uGuhl6+Y7bVSRUt4OKHcGN2slXV3eHg1hkiLK1x0kxc/XrEnsndksqJ0HnXuOOdojOtxt9H3gMVMjLGxCch9YbKimQ6yxqSKIz446IdI0QQOENo89iuVwEBwAZQvL5A1AgMBAAEwDQYJKoZIhvcNAQELBQADgYEAIPVerZH3ZQyog+l1N/XvS4z+CKbvG2q/BpVy25FmQGfTjiKzWd8042tqjD3EPcWr3QtmVnXM/4xyNAyHbqHAlgfI1XEoPmdNhqPFZiW04bAnW0a6KRWiFH6V45YmGQfwXnJwdvMniOHeXOwd6Jya59hRE+3551Nr/eYH9NyjRFE=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
